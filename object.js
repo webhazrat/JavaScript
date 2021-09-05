@@ -22,6 +22,7 @@ console.log(object3); //{"name": "Constuctor with new keyword", "language":"Java
 console.log(object1.name); //literal
 console.log(object1['name']); //literal
 
+//### Object Methods
 // Object keys as a array
 const object1Keys = Object.keys(object1);
 console.log(object1Keys); //[ 'name', 'language', 'founder' ]
@@ -29,6 +30,16 @@ console.log(object1Keys); //[ 'name', 'language', 'founder' ]
 // Object values as a array
 const object1Values = Object.values(object1);
 console.log(object1Values); //[ 'Literal', 'JavaScript', 'Brendan Eich' ]
+
+// Object as a muti dimentional array
+const object1Arrays = Object.entries(object1); 
+console.log(object1Arrays); //[[ 'name', 'Literal' ],[ 'language', 'JavaScript' ],[ 'founder', 'Brendan Eich' ]]
+
+// copy with new object
+const object1Copy = Object.assign({}, object1);
+object1Copy.year = 1995;
+console.log(object1Copy); //{ name: 'Literal', language: 'JavaScript', founder: 'Brendan Eich', year:1995 }
+console.log(object1); //{ name: 'Literal', language: 'JavaScript', founder: 'Brendan Eich' }
 
 // Object key exists or not
 console.log('name' in object1); //true
