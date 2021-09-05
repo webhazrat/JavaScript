@@ -33,4 +33,5 @@ const object1Values = Object.values(object1);
 console.log(object1Values);
 
 // Object keys exists or not
-if('name' in object1);
+console.log('name' in object1);
+
