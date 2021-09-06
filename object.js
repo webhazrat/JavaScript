@@ -21,6 +21,7 @@ console.log(object3); //{"name": "Constuctor with new keyword", "language":"Java
 // Access an object properties
 console.log(object1.name); //literal
 
+// Access an object properties with array notation
 console.log(object1['name']); //literal
 
 //### Object Methods
