@@ -1,4 +1,4 @@
-//### Define a object
+//### Define an object
 // Object literal
 const object1 = {"name": "Literal", "language":"JavaScript", "founder":"Brendan Eich"}
 
@@ -18,16 +18,17 @@ console.log(object2); //{"name": "Constructor", "language":"JavaScript", "founde
 console.log(object3); //{"name": "Constuctor with new keyword", "language":"JavaScript", "founder":"Brendan Eich"}
 
 
-// Access a object properties
+// Access an object properties
 console.log(object1.name); //literal
+
 console.log(object1['name']); //literal
 
 //### Object Methods
-// Object keys as a array
+// Object keys as an array
 const object1Keys = Object.keys(object1);
 console.log(object1Keys); //[ 'name', 'language', 'founder' ]
 
-// Object values as a array
+// Object values as an array
 const object1Values = Object.values(object1);
 console.log(object1Values); //[ 'Literal', 'JavaScript', 'Brendan Eich' ]
 
@@ -45,7 +46,7 @@ console.log(object1); //{ name: 'Literal', language: 'JavaScript', founder: 'Bre
 console.log('name' in object1); //true
 
 
-//### Iterate a object
+//### Iterate an object
 for(let i in object1){
     console.log(i); //name //language //founder
     console.log(object1[i]) //Literal //JavaScript //Brendan Eich
