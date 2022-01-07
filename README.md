@@ -1,6 +1,8 @@
 # JavaScript Cheatsheet
 It cheatsheet build for javascript programming utilities
-[javascript.info] (https://javascript.info/)
+
+Javascript Tutorial
+1. [javascript.info](https://javascript.info/)
 
 ## Free fonts
 1. [fontspace.com](http://fontspace.com)
