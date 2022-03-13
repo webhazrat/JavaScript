@@ -1,6 +1,4 @@
-# JavaScript Cheatsheet
-
-It cheatsheet build for javascript programming utilities
+# JavaScript
 
 Javascript Tutorial
 1. [javascript.info](https://javascript.info/)
