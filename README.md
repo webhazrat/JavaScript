@@ -6,3 +6,7 @@ Javascript Tutorial
 
 ### Road Map of JavaScript
 ![alt text](https://github.com/webhazrat/javascript/blob/main/javascript-roadmap.jpg?raw=true)
+
+### Task
+1. Time ago
+2. Amount in text
