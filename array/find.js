@@ -11,12 +11,12 @@ const arr = [
 const result = arr.find((value, index, obj) => {
     return value.id === 3
 })
-console.log(result);
+console.log(result); // {id:3, name: 'Angular', type:'Framework'}
 
 const indexResult = arr.findIndex((value, index, obj) => {
     return value.id === 3
 })
-console.log(indexResult);
+console.log(indexResult); // 2
 
 /*
 ==================
