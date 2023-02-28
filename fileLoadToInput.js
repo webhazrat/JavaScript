@@ -7,11 +7,11 @@ function loadURLToInputFiled(url){
         let container = new DataTransfer(); 
         container.items.add(file);
         document.querySelector('#photos').files = container.files;
-        
+
       })
-    }
-    // xmlHTTP return blob respond
-    function getImgURL(url, callback){
+}
+// xmlHTTP return blob respond
+function getImgURL(url, callback){
       var xhr = new XMLHttpRequest();
       xhr.onload = function() {
           callback(xhr.response);
@@ -19,4 +19,4 @@ function loadURLToInputFiled(url){
       xhr.open('GET', url);
       xhr.responseType = 'blob';
       xhr.send();
-    }
+}
